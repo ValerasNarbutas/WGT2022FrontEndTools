@@ -4,6 +4,7 @@ Staying up to date can be tricky if you're not familiar with the latest tools an
 It will improve your workflow and take your development to the next level.
 
 ## Code editor examples
+examples
 
 Front end developers use a code editor to write their code. Thty need a tip top code editor to write their code.  Where are loads of code editors to choose from.
 Some of the most popular code editors are:
