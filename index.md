@@ -14,9 +14,21 @@ Some of the most popular code editors are:
 - [notepad++](https://notepad-plus-plus.org/)
 - [VIM](https://www.vim.org/)
 
-What to look for in a code editor?
+Nice to have extentions for visual studio code for front-end developers are:
 
-- well designed and ultra speedy interface (sublime text)
+- Visual Studio IntelliCode
+- ESLint
+- JavaScript (ES6) code snippets
+- Prettier — Code formatter
+- Live Share
+- Debugger for Chrome
+- Path Intellisense
+- Auto Rename Tag
+- REST Client
+- Code Spell Checker
+- Live Server
+- Bracket Pair Colorizer
+- ES7 React/Redux/GraphQL/React-Native snippets
 
 ## Developer tools
 
@@ -133,6 +145,8 @@ GitHub is a cloud interface for Git. It's a web-based hosting service for versio
 
 - [Git](https://git-scm.com/)
 - [Github](https://github.com/)
+
+- [GitHub commands cheetsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ## Front-end frameworks (CSS frameworks)
 
