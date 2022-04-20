@@ -9,10 +9,10 @@ Front end developers use a code editor to write their code. Thty need a tip top 
 Some of the most popular code editors are:
 
 - [Atom](https://atom.io/)
-- Sublime Text
-- Visual Studio Code
-- notepad++
-- VIM
+- [Sublime Text](https://www.sublimetext.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [notepad++](https://notepad-plus-plus.org/)
+- [VIM](https://www.vim.org/)
 
 What to look for in a code editor?
 
@@ -25,7 +25,7 @@ It's build in to the browser and is very easy to use. It alows you to see the so
 Edit HTML and CSS in real time and debug JavaScript
 all while viewving a thorough performance analysis of your page.
 
-Chrome developer tools available both in Chrom and Safari and basicaly it gives you access to the internals of your application.
+Chrome developer tools available both in Chrome and Safari and basicaly it gives you access to the internals of your application.
 You can use device mode to test how responsive page would be as you are building it.
 
 Sources panel used to debug your Javascript or the timeline indentifies the time it takes to execute your code.
@@ -42,6 +42,9 @@ Git is a version control system for tracking changes in source code during a pro
 
 GitHub is a cloud interface for Git. It's a web-based hosting service for version control using Git. Its main purpose is to store and host code for projects. GitHub offers all versioning control functionallity as Git, but also offeres its own handy features such as task management, issue tracking, project wiki's, and more.
 
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+
 ## Front-end frameworks (CSS frameworks)
 
 Once you start building your application you will notice that you have to write the same code over and over again.
@@ -50,11 +53,19 @@ Front-end frameworks contain of a set of CSS rules that can be applied to your H
 
 Most popular front-end frameworks are:
 
-- Bootstrap -  probably most popular. It was developed by th team of Twitter. Comes with HTML and CSS based design templates for typography, forms, buttons, and other interface elements.
-- Foundation
-- Skeleton
-- UIkit
-- Fabric
+- [Bootstrap](https://getbootstrap.com/) -  probably most popular. It was developed by th team of Twitter. Comes with HTML and CSS based design templates for typography, forms, buttons, and other interface elements.
+- [Foundation](https://foundation.zurb.com/)
+- [Skeleton](https://getskeleton.com/)
+- [UIkit](https://getuikit.com/)
+- [Fabric](https://fabricjs.com/)
+
+## CSS preprocessors
+
+DRY - Don't repeat yourself.
+Sou can use a CSS preprocessor to write your CSS code once and apply it to your HTML document. This is a time saving tool that will help you write maintainable code future-proof code while reducing amount of CSS code you need to write, keeping it DRY.
+Most popular CSS preprocessor are:
+
+- [Sass](https://sass-lang.com/) -  variables, mixins, and functions that can be used in your CSS code.
 
 ## React
 
