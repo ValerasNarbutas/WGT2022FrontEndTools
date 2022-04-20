@@ -30,11 +30,100 @@ You can use device mode to test how responsive page would be as you are building
 
 Sources panel used to debug your Javascript or the timeline indentifies the time it takes to execute your code.
 
+Tips:
+
+1. Sources> Event listener> click on event you want to debug
+2. In console
+
+    ```javascript
+    var elm = document.getElementById('idname');
+    monitorEvent(elm, 'click');
+    //or
+    monitorEvent(elm, ['click', 'mouseover']);
+    // or 
+    monitorEvent(elm);
+    // to stop monitoring
+    unmonitorEvent(elm, 'click');
+    ```
+
+3. When searching you can put #name in search bar to find element by id. Using .name - will check by css class name. Example: .btn-success
+
+4. Color secetion in sources panel can be used to see the color of the element.
+5. Ctrl+Z/ Ctrl+Y  will undo/redo changes you added in right pannel in styles tab.
+6. Use filter in Styles tab to find element you want to edit, example: "padding"
+7. Clean console by pressing Ctrl+L
+8. Making page editable via console
+
+    ```javascript
+    document.body.contentEditable = true;
+    ```
+
+9. Making easier to list source breakpoint results
+
+    ```javascript
+    console.table(document.querySelectorAll('*'));
+    // selector can be your array or object or something
+    ```
+
+10. Preserving logs in console - in log tab look for setting and select 'preserve log'
+
+    ```javascript
+    console.log('Hello World');
+    ```
+
+11. In console write debug(variable) to see the value of variable. or debug(functionName). Example debug(showDate)
+
+    ```javascript
+    debug(functionName);
+    //or
+    undebug(functionName);
+
+    ```
+
+12. Monintoring function calls in console
+
+    ```javascript
+    monitor(functionName);
+    //or
+    unmonitor(functionName);
+    ```
+
+13. Measuring time in console
+
+    ```javascript
+    console.time('name');
+    for (var i = 0; i < 1000000; i++) {
+        // do something
+    }
+    console.timeEnd('name');
+    ```
+
+14. Console > setting to Verbose to see all logs
+15. Ctrl+Shift+F to find function in all source files
+16. Placing breakpoint in long lines of code - select arrow in the console.
+17. When debugging in CallStack you can blackbox scripts with right click on the script name to prevent them to be shown.
+18. Snippets - you can create your own snippets to use in your code.
+
+## API tools
+
+Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
+
+[Postman](https://www.postman.com/)
+[Public collection of api endpoints](https://www.postman.com/cs-demo/workspace/public-rest-apis/collection/8854915-454a2dc7-dcbe-41cf-9bfa-da544fcd93a2?ctx=documentation)
+
 ## jQuery
 
 Cross platform, jQuery is a JavaScript library that simplifies HTML document traversal, event handling, animating, and Ajax interactions for rapid web development.
 JQuery takes common tasks that require several lines of JavasScript and condenses them into methiods that you can call up with a single line of code.
 Despite it's age (developed at 2006), it's still a popular library. 90% of 500k sites still use it.
+
+[jquery](https://jquery.com/)
+
+```javascript
+$(document).ready(function(){
+    // code here
+});
+```
 
 ## Git and GitHub
 
@@ -67,6 +156,9 @@ Most popular CSS preprocessor are:
 
 - [Sass](https://sass-lang.com/) -  variables, mixins, and functions that can be used in your CSS code.
 
-## React
-
-Another popular front-end framework is React. It's a JavaScript library for building user interfaces. It's used by Facebook, Instagram, and other companies.
+    ```sass
+    $color: #ff0000;
+    .red {
+        color: $color;
+    }
+    ```
